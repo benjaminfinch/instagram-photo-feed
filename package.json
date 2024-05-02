@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  },
+  "name": "bootstrap-instagram",
+  "version": "1.0.0",
+  "description": "Bootstrap exercise",
+  "main": "index.html",
+  "devDependencies": {
+    "@compodoc/live-server": "^1.2.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devserver":"live-server",
+    "start": "npm-run-all --parallel devserver"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjaminfinch/instagram_feed.git"
+  },
+  "author": "Benjamin Finch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjaminfinch/instagram_feed.git"
+  },
+  "homepage": "https://github.com/benjaminfinch/instagram_feed.git"
+}
